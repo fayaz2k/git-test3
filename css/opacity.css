@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    /*background: url(../images/shutterbug.jpg) no-repeat top center fixed black; 
+    height: 1000px;
+    background-size: cover;*/
+
+    background: url(../images/man_smoke.jpg) no-repeat center fixed black; 
+    height: 1000px; 
+    background-size: cover;
+    
+    /*background: url(../images/m-girl.jpg) no-repeat right top fixed black; 
+    height: 1000px; 
+    background-size: cover;*/
+
+    /*background: url(../images/m-lighthouse.jpg) no-repeat top  fixed black; 
+    height: 1000px; 
+    background-size: cover;*/
+
+    /*background: url(../images/m-liberty.jpg) no-repeat top center fixed black; 
+    height: 1000px; 
+    background-size: cover;*/
+    
+   
+}
+
+.wrapper{
+    width: 900px;
+    margin: 100px auto 0 auto;
+    height: 760px;
+    /*border:red 1px solid;*/
+}
+
+.container{
+    /*border: red 1px solid;*/
+    margin: 0 auto;
+    width: 800px;
+    padding-top:10px;
+    /*margin-top:10px; */ 
+}
+
+.header{
+    /*border: white 1px solid;*/
+    /*height: 200px;*/
+    background-color: white;
+    border-top-left-radius: 76px 32px;
+    -webkit-border-top-left-radius: 76px 32px;
+    -moz-border-top-left-radius: 76px 32px;
+
+    border-top-right-radius: 76px 32px;
+    -webkit-border-top-right-radius: 76px 32px;
+    -moz-border-top-right-radius: 76px 32px;
+
+    box-shadow: 3px 0 3px cyan;
+    -webkit-box-shadow: 3px 0 3px cyan;
+     
+}
+
+/*----------------------------------------------*/
+
+.top_heading{
+    float: left;
+    /*border: green 1px solid;*/
+    width: 390px;
+    /*height: 60px;*/
+    color:hotpink;
+    padding-top: 6px;
+}
+
+.social_links{
+    /*border: black 1px solid;*/
+    float: right;
+    width: 390px;
+    /*height: 60px;*/
+    text-align: right;
+}
+
+.clear{
+    clear: both;
+}
+
+.social_links ul{
+    list-style: none;
+    font-size: 2em;
+}
+
+.social_links ul li{
+    display: inline-block;
+    padding: 0 4px;
+}
+
+.social_links ul li a,
+.social_links ul li a:focus{
+color:gray;
+}
+
+/*.social_links ul li a:hover,
+.social_links ul li a:focus{
+color: #057f78;
+}
+*/
+.social_links ul li a .fa-facebook-square:hover,
+.social_links ul li a .fa-facebook-square:focus{
+color: blue;
+}
+
+.social_links ul li a .fa-instagram:hover,
+.social_links ul li a .fa-instagram:focus{
+color: black;
+}
+
+.social_links ul li a .fa-linkedin-square:hover,
+.social_links ul li a .fa-linkedin-square:focus{
+color: lightcoral;
+}
+
+.social_links ul li a .fa-youtube-square:hover,
+.social_links ul li a .fa-youtube-square:focus{
+color: mediumvioletred;
+}
+
+.social_links ul li a .fa-twitter-square:hover,
+.social_links ul li a .fa-twitter-square:focus{
+color: cornflowerblue;
+}
+
+
+
+
+
+.slider{
+    /*border: 1px solid cyan; */
+    height: 200px;
+
+    box-shadow: 3px 0 3px cyan;
+    -webkit-box-shadow: 1px 2px 0 1px cyan;
+}
+
+.slider .container{
+    padding: 0;
+    /*margin: 0;*/
+    width: 810px;
+    /*border: red 1px solid;*/
+    margin: 0 auto;
+    height: 200px;
+    float: left;
+}
+
+.slider_left{
+    float: left;
+    width: 40px;
+    height: 200px;
+    background-color: white;
+}
+
+/*.slider_center{
+    float: left;
+    /*width: 700px;*
+    height: 200px;
+     background-color: black;
+}*/
+
+.slider_right{
+    float: right;
+    width: 45px;
+    height: 200px;
+    background-color: white;
+        /*box-shadow: 3px 3px 3px cyan;
+    -webkit-box-shadow: 2px 0 0  cyan;*/
+}
+
+.content{
+  /*  margin: 6px 0;
+    position: relative;*/
+    background-color: white;
+    height: 500px;
+
+    box-shadow: 3px 3px 3px cyan;
+    -webkit-box-shadow: 3px 3px 3px cyan;
+}
+.content h4{
+padding: 4px 0;
+border-bottom: hotpink 1px dashed; 
+color: hotpink;
+}
+
+.content_row{
+    padding: 10px 0;
+    position: relative;
+}
+.content_col1{
+    width: 280px;
+    height: 380px;
+    /*border: black 1px solid;*/
+    position: absolute;
+    background: url(../images/girl_hood.jpg)no-repeat top center; background-size: cover;
+    left: 100px;
+   
+}
+
+.content_col2{
+    position: absolute;
+    border:black 1px solid;
+    width: 260px;
+    height: 200px;
+    background: url(../images/newyork2.jpg) no-repeat top center; background-size: cover;
+    top: 20px;
+    left: 110px;
+}
+
+.content_col3{
+    position: absolute;
+    /*border:black 1px solid;*/
+    width: 260px;
+    height: 110px;
+    /*background: url(../images/newyork2.jpg) no-repeat top center; background-size: cover;*/
+    top: 240px;
+    left: 110px;
+    text-align: center;
+    color: cyan; 
+}
+
+.content_col4{
+    width: 260px;
+    height: 240px;
+    /*border: 1px solid red;*/
+    position: absolute;
+    left: 440px;
+    background: url(../images/shutterbug.jpg)no-repeat top center; background-size: cover;
+}
+
+.content_col5{
+    width: 240px;
+    height: 200px;
+    border: 1px solid cyan;
+    box-shadow: 2px 2px 2px cyan;
+    position: absolute;
+    left: 450px;
+    top: 20px;
+}
+
